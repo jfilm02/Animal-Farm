@@ -1,5 +1,4 @@
 import java.awt.Color;
-
 public class Cow extends Turtle
 { 
   /**
@@ -10,9 +9,24 @@ public class Cow extends Turtle
   public Cow(World wref)
   {
     super(wref);
-    Color shellColor = new Color(200, 50, 10);
+    Color shellColor = new Color(220, 220, 220);
+    this.setShellColor(shellColor);
   }
-  
+  {
+    Color bodyColor = new Color(0, 0, 0);
+    this.setBodyColor(bodyColor);
+  }
+  {
+    this.setWidth(70);
+    this.setHeight(60);
+  }
+  {
+    this.getName();
+    this.setName("Steve the Cow");
+  }
+  {
+    this.getDistance(100,100);
+  }
   /**
    * Constructor that takes the x and y position and the
    * model displayer
