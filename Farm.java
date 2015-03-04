@@ -4,7 +4,8 @@ public class Farm
   {
     World wref = new World();
     Pikachu pik = new Pikachu(wref);
-    
     pik.forward(100);
+    Pup mac = new Pup(wref);
+    mac.forward(100);
   }
 }
