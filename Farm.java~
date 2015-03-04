@@ -1,8 +1,16 @@
 public class Farm
 {
+<<<<<<< HEAD
  public static void main(String[] a)
  {
    World ref=new World();
-   Grape Ape =new Cow(ref);
+   Cow steveyboy=new Cow(ref);
  }
+=======
+  public static void main(String[] a)
+  {
+    World wref = new World();
+    Pikachu pik = new Pikachu(wref);
+  }
+>>>>>>> FETCH_HEAD
 }

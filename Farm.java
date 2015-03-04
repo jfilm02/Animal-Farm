@@ -4,5 +4,6 @@ public class Farm
  {
    World ref=new World();
    Cow steveyboy=new Cow(ref);
- }
+    Pikachu pik = new Pikachu(wref);
+  }
 }
