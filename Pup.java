@@ -28,5 +28,15 @@ public class Pup extends Turtle
      Color shellColor = new Color(222, 184, 135); //requires import line at top to work (new color defined using RGB values)
     this.setShellColor(shellColor);
     
+      ex1.getBodyColor();
+    
+    /**
+   * Method to set the body color which
+   * will also set the pen color
+   * @param color the color to use
+   */
+    Color bodyColor = new Color(139, 69, 19); //requires import line at top to work (new color defined using RGB values)
+    ex1.setBodyColor(bodyColor);
+    
   }
 }
