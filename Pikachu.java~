@@ -1,5 +1,3 @@
-import java.awt.Color; //needed for color to work
-
 public class Pikachu extends Turtle
 { 
   /**
@@ -10,12 +8,6 @@ public class Pikachu extends Turtle
   public Pikachu(World wref)
   {
     super(wref);
-    
-    this.getDistance(100,100);
-    Color shellColor = new Color(255, 255, 0); //requires import line at top to work (new color defined using RGB values)
-    this.setShellColor(shellColor);
-    this.setPenColor(shellColor);
-   // this.getShellColor(255,255,0);
   }
   
   /**
