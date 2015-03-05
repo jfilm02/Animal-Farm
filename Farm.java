@@ -4,11 +4,28 @@ public class Farm
  {
    World ref=new World();
    Cow steveyboy=new Cow(ref);
-   steveyboy.animateTurnaround();
+   steveyboy.animateTurnright();
+   steveyboy.animateForward();
    steveyboy.animateForward();
    steveyboy.animateTurnright();
    steveyboy.animateForward();
-   steveyboy.animateTurnleft();
+   steveyboy.animateForward();
+   steveyboy.animateTurnright();
+   steveyboy.animateForward();
+   steveyboy.animateForward();
+   steveyboy.animateForward();
+   steveyboy.animateForward();
+   steveyboy.animateTurnright();
+   steveyboy.animateForward();
+   steveyboy.animateForward();
+   steveyboy.animateForward();
+   steveyboy.animateForward();
+   steveyboy.turn(135);
+   steveyboy.animateForward();
+   steveyboy.animateForward();
+   steveyboy.animateForward();
+   steveyboy.animateForward();
+   steveyboy.animateForward();
    Pikachu pik = new Pikachu(ref);
    pik.forward(100);
    pik.turn(90);
@@ -36,6 +53,8 @@ public class Farm
    pik.forward(100);
    
    Pup mac = new Pup(ref);
+   mac.forward(100);
+   mac.turn(-90);
    mac.forward(100);
   }
 }
