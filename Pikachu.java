@@ -16,6 +16,10 @@ public class Pikachu extends Turtle
     this.setShellColor(shellColor);
     this.setPenColor(shellColor);
    // this.getShellColor(255,255,0);
+    Color bodyColor = new Color(255, 255, 0);
+    this.setBodyColor(bodyColor);
+    this.setWidth(30);
+    this.setHeight(30);
   }
   
   /**
