@@ -11,21 +11,35 @@ public class Cow extends Turtle
     super(wref);
     Color shellColor = new Color(220, 220, 220);
     this.setShellColor(shellColor);
-  }
-  {
     Color bodyColor = new Color(0, 0, 0);
     this.setBodyColor(bodyColor);
-  }
-  {
     this.setWidth(70);
     this.setHeight(60);
-  }
-  {
-    this.getName();
     this.setName("Steve the Cow");
-  }
-  {
     this.getDistance(100,100);
+  }
+  
+  public void animateForward()
+  {
+    for(int i = 0; i< 20; i++)
+    {
+      this.forward(10);
+      try
+      {
+        Thread.sleep(200);
+      } catch (InterruptedException ex) { }
+    }
+  }
+  public void animateTurn()
+  {
+    for(int i = 0; i< 9; i++)
+    {
+      this.turn(90);
+      try
+      {
+        Thread.sleep(150);
+      } catch (InterruptedException ex) { }
+    }
   }
   /**
    * Constructor that takes the x and y position and the

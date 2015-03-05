@@ -1,16 +1,17 @@
 public class Farm
 {
-<<<<<<< HEAD
  public static void main(String[] a)
  {
    World ref=new World();
    Cow steveyboy=new Cow(ref);
- }
-=======
-  public static void main(String[] a)
-  {
-    World wref = new World();
-    Pikachu pik = new Pikachu(wref);
+   steveyboy.backward(100);
+   steveyboy.turn(-90);
+   steveyboy.forward(10);
+   steveyboy.animateForward();
+   steveyboy.animateTurn();
+   Pikachu pik = new Pikachu(ref);
+   pik.forward(100);
+   Pup mac = new Pup(ref);
+   mac.forward(100);
   }
->>>>>>> FETCH_HEAD
 }

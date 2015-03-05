@@ -21,7 +21,7 @@ public class Cow extends Turtle
   
   public void animateForward()
   {
-    for(int i = 0; i< 20; i++)
+    for(int i = 0; i< 10; i++)
     {
       this.forward(10);
       try
@@ -30,7 +30,7 @@ public class Cow extends Turtle
       } catch (InterruptedException ex) { }
     }
   }
-  public void animateTurn()
+  public void animateTurnright()
   {
     for(int i = 0; i< 9; i++)
     {
@@ -38,6 +38,28 @@ public class Cow extends Turtle
       try
       {
         Thread.sleep(150);
+      } catch (InterruptedException ex) { }
+    }
+  }
+   public void animateTurnleft()
+  {
+    for(int i = 0; i< 9; i++)
+    {
+      this.turn(-90);
+      try
+      {
+        Thread.sleep(150);
+      } catch (InterruptedException ex) { }
+    }
+  }
+     public void animateTurnaround()
+  {
+    for(int i = 0; i< 9; i++)
+    {
+      this.turn(20);
+      try
+      {
+        Thread.sleep(300);
       } catch (InterruptedException ex) { }
     }
   }
