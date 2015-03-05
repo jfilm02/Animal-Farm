@@ -26,7 +26,7 @@ public class Cow extends Turtle
       this.forward(10);
       try
       {
-        Thread.sleep(200);
+        Thread.sleep(50);
       } catch (InterruptedException ex) { }
     }
   }
@@ -37,7 +37,7 @@ public class Cow extends Turtle
       this.turn(90);
       try
       {
-        Thread.sleep(150);
+        Thread.sleep(75);
       } catch (InterruptedException ex) { }
     }
   }
@@ -48,7 +48,7 @@ public class Cow extends Turtle
       this.turn(-90);
       try
       {
-        Thread.sleep(150);
+        Thread.sleep(75);
       } catch (InterruptedException ex) { }
     }
   }
@@ -59,7 +59,7 @@ public class Cow extends Turtle
       this.turn(20);
       try
       {
-        Thread.sleep(300);
+        Thread.sleep(150);
       } catch (InterruptedException ex) { }
     }
   }
