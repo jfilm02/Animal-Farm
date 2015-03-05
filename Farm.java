@@ -15,5 +15,7 @@ public class Farm
    pik.forward(50);
    Pup mac = new Pup(ref);
    mac.forward(100);
+   mac.turn(-90);
+   mac.forward(100);
   }
 }

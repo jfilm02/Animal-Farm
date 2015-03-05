@@ -12,7 +12,8 @@ public class Pup extends Turtle
     super(wref);
      Color shellColor = new Color(222, 184, 135); //requires import line at top to work (new color defined using RGB values)
     this.setShellColor(shellColor);
-    
+    this.setHeight(100);
+    this.setWidth(50);
   }
   
   /**
@@ -35,7 +36,7 @@ public class Pup extends Turtle
    * will also set the pen color
    * @param color the color to use
    */
-    Color bodyColor = new Color(139, 69, 19); //requires import line at top to work (new color defined using RGB values)
+    Color bodyColor = new Color(160, 82, 45); //requires import line at top to work (new color defined using RGB values)
 
     
   }

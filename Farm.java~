@@ -4,13 +4,15 @@ public class Farm
  {
    World ref=new World();
    Cow steveyboy=new Cow(ref);
-   steveyboy.backward(100);
-   steveyboy.turn(-90);
-   steveyboy.forward(10);
+   steveyboy.animateTurnaround();
    steveyboy.animateForward();
-   steveyboy.animateTurn();
+   steveyboy.animateTurnright();
+   steveyboy.animateForward();
+   steveyboy.animateTurnleft();
    Pikachu pik = new Pikachu(ref);
    pik.forward(100);
+   pik.turn(90);
+   pik.forward(50);
    Pup mac = new Pup(ref);
    mac.forward(100);
   }
