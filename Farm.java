@@ -60,5 +60,8 @@ public class Farm
    mac.forward(100);
    mac.turn(-180);
    mac.forward(100);
+   mac.forward(200);
+   mac.turn(90);
+   mac.forward(200);
   }
 }
