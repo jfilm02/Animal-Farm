@@ -35,20 +35,35 @@ public class Farm
    pik.turn(-90);
    pik.forward(90);
    pik.turn(-90);
-   pik.forward(180);
-   pik.turn(90);
-   pik.turn(180);
-   pik.forward(20);
-   pik.turn(-90);
-   pik.forward(180);
-   pik.turn(180);
-   pik.forward(180);
+   pik.forward(80);
    pik.turn(90);
    pik.forward(5);
    pik.turn(-90);
-   pik.forward(100);
+   pik.forward(200);
    pik.turn(90);
    pik.forward(10);
+   pik.turn(90);
+   pik.forward(200);
+   pik.turn(270);
+   pik.forward(5);
+   pik.turn(90);
+   pik.forward(80);
+   pik.turn(90);
+   pik.forward(20);
+   pik.turn(90);
+   pik.forward(80);
+   pik.turn(90);
+   pik.forward(20);
+   pik.turn(90);
+   pik.forward(80);
+   pik.turn(90);
+   pik.forward(5);
+   pik.turn(-90);
+   pik.forward(200);
+   pik.turn(90);
+   pik.forward(10);
+   pik.turn(90);
+   pik.forward(160);
    pik.turn(90);
    pik.forward(100);
    
@@ -56,5 +71,20 @@ public class Farm
    mac.forward(100);
    mac.turn(-90);
    mac.forward(100);
+   mac.turn(90);
+   mac.forward(100);
+   mac.turn(-180);
+   mac.forward(100);
+   mac.forward(200);
+   mac.turn(90);
+   mac.forward(200);
+   mac.forward(100);
+   mac.forward(250);
+   mac.forward(500);
+   mac.turn(90);
+   mac.turn(90);
+   mac.forward(800);
+   
+   
   }
 }
